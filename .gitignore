@@ -1,0 +1,66 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+*.pyc
+.*swp
+.*swo
+.~lock*
+.*sw*
+*~
+cscope*
+*.log*
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse files
+.project
+.pydevproject
+.settings/
+
+# IDE files
+.idea/
+
+# Vim files
+.ropeproject/
+# Media
+media/
+
+# build
+build/
+bower_components/
+node_modules/
+tmp/
+
+# Ignore Mac DS_Store files
+.DS_Store
+
+# ignoring local settings files
+local_settings.py
+settings_local.py
+
+# ignoring deployment static
+deployment_static/
+
+# Media
+media/
+
+# ignoring Dynamic icons directory
+webapp_frontend/webapp_frontend/static/Images/Icons/Dynamic/
+webapp_frontend/webapp_frontend/static/Images/Icons/VmsMessageImage/
+webapp_frontend/webapp_frontend/static/StreetManagement/
+!webapp_frontend/webapp_frontend/static/StreetManagement/Dummy
+
+# Special files
+TEST
+PRELIM
+PRODUCTION
+DEV
+docs/nginx/smartcity_local.conf
+docs/supervisord/smartcity_local.conf
+docs/supervisord/intercom_client_local.conf
+
+#log file anconv
+Logfile.txt
+.coverage
+webapp_frontend/.coverage
