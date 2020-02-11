@@ -12,6 +12,8 @@ Voice Based Email for Visually impaired.
 #### Backend
 
 * git clone https://<username>@bitbucket.org/Crash0v3rrid3/v-mail.git
+* mkvirtualenv vmail -p python3.6
+* workon vmail
 * pip install -r requirements.txt
 * python manage.py runserver
 
