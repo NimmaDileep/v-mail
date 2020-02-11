@@ -17,6 +17,7 @@ cscope*
 .project
 .pydevproject
 .settings/
+*__pycache__*
 
 # IDE files
 .idea/
