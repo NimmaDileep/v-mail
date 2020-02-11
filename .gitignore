@@ -45,21 +45,6 @@ deployment_static/
 # Media
 media/
 
-# ignoring Dynamic icons directory
-webapp_frontend/webapp_frontend/static/Images/Icons/Dynamic/
-webapp_frontend/webapp_frontend/static/Images/Icons/VmsMessageImage/
-webapp_frontend/webapp_frontend/static/StreetManagement/
-!webapp_frontend/webapp_frontend/static/StreetManagement/Dummy
-
-# Special files
-TEST
-PRELIM
-PRODUCTION
-DEV
-docs/nginx/smartcity_local.conf
-docs/supervisord/smartcity_local.conf
-docs/supervisord/intercom_client_local.conf
-
 #log file anconv
 Logfile.txt
 .coverage
